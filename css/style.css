@@ -311,7 +311,10 @@ body {
       border: solid 1px #0000ff;
       -webkit-border-radius: 50%;
       border-radius: 50%;
-      display: inline-block; }
+      display: inline-block;
+      cursor: pointer; }
+      .screenshots .slider-nav .item:hover {
+        background: #0000ff; }
     .screenshots .slider-nav .active {
       background: #0000ff; }
     .screenshots .slider-nav .item:not(:last-child) {

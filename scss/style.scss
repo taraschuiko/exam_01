@@ -400,6 +400,7 @@ body {
 	background: #FAFAFA;
 	padding-top: 130px;
 	padding-bottom: 130px;
+	position: relative;
 	
 	.images {
 		display: flex;
@@ -426,6 +427,54 @@ body {
 		.item:not(:last-child) {
 			margin-right: 16px;
 		}
+	}
+
+	.bottom-logo {
+		position: absolute;
+		bottom: -35px;
+		left: 80px;
+	}
+}
+
+.get {
+	background: url('../imgs/get-bg.png');
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-top: 320px;
+	padding-bottom: 320px;
+
+	.container {
+		-webkit-align-items: flex-start;
+		align-items: flex-start;
+	}
+
+	.divider {
+		margin-left: 200px;
+	}
+
+	&-title {
+		font-size: 76px;
+		margin: 10px 0;
+		font-weight: bold;
+		line-height: 150.0px;
+		text-align: left;
+		color: #333333;
+	}
+
+	&-desc {
+		width: 50%;
+		font-size: 16px;
+		line-height: 27.0px;
+		text-align: left;
+		color: #4d4d4d;
+		margin-bottom: 60px;
+	}
+
+	.appstore:hover {
+		-webkit-box-shadow: 4px 4px 34px -10px rgba(0,0,0,0.75);
+		-moz-box-shadow: 4px 4px 34px -10px rgba(0,0,0,0.75);
+		box-shadow: 4px 4px 34px -10px rgba(0,0,0,0.75);
 	}
 }
 
